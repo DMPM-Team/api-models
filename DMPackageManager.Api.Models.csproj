@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>1.0.0</Version>
+    <Authors>AffectedArc07</Authors>
+    <Company>DMPM-Team</Company>
+    <Description>API definitions for the DMPM CLI and Website API</Description>
+    <PackageTags>json web api dmpm byond package-manager</PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/DMPM-Team/api-models</PackageProjectUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="LICENSE.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 
 </Project>
